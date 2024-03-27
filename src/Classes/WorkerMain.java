@@ -1,4 +1,4 @@
-package Klassen;
+package Classes;
 
 public class WorkerMain {
     public static void main(String[] args) {

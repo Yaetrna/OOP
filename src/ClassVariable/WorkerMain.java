@@ -1,4 +1,4 @@
-package Klassenvariable;
+package ClassVariable;
 
 public class WorkerMain {
     public static void main(String[] args) {

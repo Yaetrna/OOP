@@ -1,4 +1,4 @@
-package Klassenvariable;
+package Inheritance;
 
 public class Worker {
     private int workerID;

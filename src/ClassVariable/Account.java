@@ -1,4 +1,4 @@
-package Klassenvariable;
+package ClassVariable;
 
 public class Account {
     private int accountID;

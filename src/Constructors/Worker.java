@@ -1,4 +1,4 @@
-package Konstruktoren;
+package Constructors;
 
 public class Worker {
     private int workerID;

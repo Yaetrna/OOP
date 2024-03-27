@@ -1,4 +1,4 @@
-package Konstruktoren;
+package Constructors;
 
 public class AccountMain {
     public static void main(String[] args) {

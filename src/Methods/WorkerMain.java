@@ -1,4 +1,4 @@
-package Methoden;
+package Methods;
 
 public class WorkerMain {
     public static void main(String[] args) {
