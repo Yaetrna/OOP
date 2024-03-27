@@ -1,4 +1,4 @@
-package WorkerOne;
+package Klassen;
 
 public class Worker {
     int workerID;

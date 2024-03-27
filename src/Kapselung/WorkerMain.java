@@ -1,4 +1,4 @@
-package WorkerThree;
+package Kapselung;
 
 public class WorkerMain {
     public static void main(String[] args) {

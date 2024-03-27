@@ -1,13 +1,41 @@
-package WorkerTwo;
+package Kapselung;
 
 public class Worker {
-    int workerID;
-    double hourlyWage;
-    double workingTime;
-    String workerName;
+    private int workerID;
+    private double hourlyWage;
+    private double workingTime;
+    private String workerName;
+
+    public void setWorkerID(int workerID) {
+        this.workerID = workerID;
+    }
+
+    public void setHourlyWage(double hourlyWage) {
+        this.hourlyWage = hourlyWage;
+    }
+
+    public void setWorkingTime(double workingTime) {
+        this.workingTime = workingTime;
+    }
+
+    public void setWorkerName(String workerName) {
+        this.workerName = workerName;
+    }
+
+    public int getWorkerID() {
+        return this.workerID;
+    }
+
+    public double getHourlyWage() {
+        return this.hourlyWage;
+    }
 
     public double getWorkingTime() {
         return this.workingTime;
+    }
+
+    public String getWorkerName() {
+        return this.workerName;
     }
 
     public double getGrossWage() {

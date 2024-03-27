@@ -1,4 +1,4 @@
-package AccountOne;
+package Klassen;
 
 public class Account {
     int accountID;
