@@ -1,3 +1,5 @@
+package WorkerOne;
+
 public class Worker {
     int workerID;
     double hourlyWage;
@@ -13,6 +15,6 @@ public class Worker {
     }
 
     public void changeHourlyWage(double percent) {
-        this.hourlyWage *= (1 + (percent / 100));
+        this.hourlyWage *= 1 + percent / 100;
     }
 }
