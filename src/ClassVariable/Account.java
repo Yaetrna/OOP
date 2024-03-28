@@ -1,7 +1,7 @@
 package ClassVariable;
 
 public class Account {
-    private int accountID;
+    private final int accountID;
     private String accountOwner;
     private double accountBalance;
     private static int nextAccountID = 1001;

@@ -1,36 +1,9 @@
 package Inheritance;
 
 public class Account {
-    private int accountID;
-    private String accountOwner;
-    private double accountBalance;
-    private static int nextAccountID = 1001;
-
-    public Account(String accountOwner) {
-        this.accountOwner = accountOwner;
-        this.accountID = nextAccountID;
-        nextAccountID++;
-    }
-
-    public int getAccountID() {
-        return this.accountID;
-    }
-
-    public String getAccountOwner() {
-        return this.accountOwner;
-    }
-
-    public double getAccountBalance() {
-        return this.accountBalance;
-    }
-
-    public static int getNextAccountID() {
-        return nextAccountID;
-    }
-
-    public void setAccountOwner(String accountOwner) {
-        this.accountOwner = accountOwner;
-    }
+    protected int accountID;
+    protected String accountOwner;
+    protected double accountBalance;
 
     public void deposit(double amount) {
         this.accountBalance += amount;
@@ -38,5 +11,9 @@ public class Account {
 
     public void withdraw(double amount) {
         this.accountBalance -= amount;
+    }
+
+    public double getAccountBalance() {
+        return this.accountBalance;
     }
 }
